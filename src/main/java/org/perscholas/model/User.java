@@ -31,7 +31,7 @@ public class User {
     String email;
 
 
-    @NotEmpty
+
     String password;
 
     // One user can have multiple roles, one role can have multiple role
@@ -48,6 +48,7 @@ public class User {
         this.lastName = user.getLastName();
         this.email = user.getEmail();
         this.password = user.getPassword();
+        this.roles = user.getRoles();
     }
     public User(){
 

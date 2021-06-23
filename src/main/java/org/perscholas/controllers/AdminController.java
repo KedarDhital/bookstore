@@ -98,6 +98,7 @@ public class AdminController {
         book.setId(bookDTO.getId());
         book.setTitle(bookDTO.getTitle());
         book.setIsbn(bookDTO.getIsbn());
+        book.setAuthor(bookDTO.getAuthor());
         book.setPublishedYear(bookDTO.getPublishedYear());
         book.setPrice(bookDTO.getPrice());
         book.setUnitsInStock(bookDTO.getUnitsInStock());

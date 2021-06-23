@@ -10,7 +10,7 @@
     <title>Categories</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,12 +32,11 @@
     </div>
 </nav>
 <div class="container">
-<!-- creates add category button, table with four columns -->
+<!-- creates add category button, table with 3 columns -->
     <a th:href="@{/admin/categories/add}" style="margin: 20px 0" class="btn btn-primary">Add Category</a>
     <table class="table">
         <thead class="thead-light">
         <tr>
-            <th scope="col">SN</th>
             <th scope="col">Category Name</th>
             <th scope="col">Delete</th>
             <th scope="col">Update</th>
@@ -46,9 +45,7 @@
         <tbody>
 
         <tr th:each="category, iStat : ${categories}">
-            <th scope="row" th:text="${iStat.index + 1}">1</th>
-            <td th:text="${category.name}">Larry</td>
-
+            <td th:text="${category.name}"></td>
             <td><a href="" th:href="@{/admin/categories/delete/{id}(id=${category.id})}" class="btn btn-danger">Delete</a></td>
             <td><a href="" th:href="@{/admin/categories/update/{id}(id=${category.id})}" class="btn btn-warning">Update</a></td>
 
