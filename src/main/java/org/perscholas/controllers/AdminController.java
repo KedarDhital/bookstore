@@ -87,7 +87,7 @@ public class AdminController {
 
     }
     /* post mapping to get information from the front end
-     Also, product image will be get from the user when it is posted from front-end
+     Also, product image will be get from the user when it is posted from front-end.
      used multipart to get image posted from front-end, request param to get the image
      I need to save Book but we are using BookDTO object, so we need to convert BookDTO object into BOOK object*/
     @PostMapping("/admin/books/add")
