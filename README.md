@@ -12,6 +12,19 @@ Admin user can:
 ![image](https://user-images.githubusercontent.com/81042610/123123674-de042e00-d3fb-11eb-86aa-f21bad4f050d.png)
 ![image](https://user-images.githubusercontent.com/81042610/123123316-98dffc00-d3fb-11eb-89f1-0f80543fbad4.png)
 
+CUSTOMER USER: ROLE
+CUSTOMER USER CAN:
+-	VIEW LIST OF BOOKS BY CATEGORIES 
+-	VIEW INDIVIDUAL BOOK FOR MORE INFORMATION
+-	ADD BOOKS TO CART
+-	CHECKOUT BOOKS THAT ARE IN THE CART
+-	REMOVE BOOK(S) THAT ARE IN THE CART
+-	NAVIGATE TO THE HOME, SHOP, LOGOUT, or CART ONCE THEY ARE logged in 
+-	USER CAN SIGN UP/ OR LOGIN USING GMAIL
+
+![image](https://user-images.githubusercontent.com/81042610/123125532-70f19800-d3fd-11eb-9bd3-ca7d65d45414.png)
+![image](https://user-images.githubusercontent.com/81042610/123125552-74851f00-d3fd-11eb-82ac-9b0dade8581a.png)
+
 
  
 
