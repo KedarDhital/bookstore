@@ -40,6 +40,19 @@ CUSTOMER USER CAN:
 
 https://trello.com/b/kckAaf4I/online-book-store-final-project
 
+SQL SCRIPT TO RUN TO TEST THE APPLICATION
+INSERT INTO roles(id, name) VALUES (1, 'ROLE_ADMIN'),(2,'ROLE_USER');
 
+INSERT INTO users(id,email,password,firstName, lastName) VALUES (1, 'admin@gmail.com', '$2a$10$zcLTgky7L7zAgzu48coQy.Eq/idmRlNXU7vHRADS.1I2z0U8RzH3W','ADMIN','Kedar');
+
+-- PASSWORD FOR admin@gmail.com IS apple100
+
+INSERT INTO user_role(user_id, role_id) VALUES (1,1), (1,2);
+
+-- user data below INSERT INTO users(id,email,password,firstName, lastName) VALUES (35, 'user@gmail.com', '$2a$10$zcLTgky7L7zAgzu48coQy.Eq/idmRlNXU7vHRADS.1I2z0U8RzH3W','USER','KedUser');
+
+-- PASSWORD FOR user@gmail.com IS apple100
+
+INSERT INTO user_role(user_id, role_id) VALUES (35,2);
 
 
