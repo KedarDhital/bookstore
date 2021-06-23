@@ -50,7 +50,9 @@ INSERT INTO users(id,email,password,firstName, lastName) VALUES (1, 'admin@gmail
 
 INSERT INTO user_role(user_id, role_id) VALUES (1,1), (1,2);
 
--- user data below INSERT INTO users(id,email,password,firstName, lastName) VALUES (35, 'user@gmail.com', '$2a$10$zcLTgky7L7zAgzu48coQy.Eq/idmRlNXU7vHRADS.1I2z0U8RzH3W','USER','KedUser');
+-- user data below
+
+INSERT INTO users(id,email,password,firstName, lastName) VALUES (35, 'user@gmail.com', '$2a$10$zcLTgky7L7zAgzu48coQy.Eq/idmRlNXU7vHRADS.1I2z0U8RzH3W','USER','KedUser');
 
 -- PASSWORD FOR user@gmail.com IS apple100
 
