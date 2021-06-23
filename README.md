@@ -26,6 +26,10 @@ CUSTOMER USER CAN:
 ![image](https://user-images.githubusercontent.com/81042610/123125552-74851f00-d3fd-11eb-82ac-9b0dade8581a.png)
 
 
+![image](https://user-images.githubusercontent.com/81042610/123125855-c0d05f00-d3fd-11eb-9c0b-a54a1123a4bb.png)
+
+![image](https://user-images.githubusercontent.com/81042610/123126089-f5441b00-d3fd-11eb-89bb-b37c312b506d.png)
+
  
 
 
