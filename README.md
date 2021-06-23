@@ -31,7 +31,12 @@ CUSTOMER USER CAN:
 ![image](https://user-images.githubusercontent.com/81042610/123126089-f5441b00-d3fd-11eb-89bb-b37c312b506d.png)
 
  
+## TECHNOLOGY USED / TECHNOLOGY INTEGRATION
+- JAVA, thymeleaf,BOOTSTRAP, MARIA DB, SPRING BOOT, GOOGLE Authentication
 
+## ENTITY RELATIONSHIP DIAGRAM 
+
+![image](https://user-images.githubusercontent.com/81042610/123129190-9af88980-d400-11eb-81c0-de58169c29f1.png)
 
 
 
