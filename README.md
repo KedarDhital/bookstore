@@ -8,7 +8,7 @@ Admin: Role
 Admin user can: 
 -	ADD BOOK CATEGORY, DELETE BOOK CATEGORY, EDIT BOOK CATEGORY
 -	ADD NEW BOOK, DELETE BOOK(S), EDIT BOOK
--	
+
 ![image](https://user-images.githubusercontent.com/81042610/123123674-de042e00-d3fb-11eb-86aa-f21bad4f050d.png)
 ![image](https://user-images.githubusercontent.com/81042610/123123316-98dffc00-d3fb-11eb-89f1-0f80543fbad4.png)
 
