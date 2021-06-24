@@ -67,10 +67,10 @@
                                 <span><strong>$<span th:text="${total}"></span></strong></span>
                             </li>
                         </ul>
-
-                        <form action="" method="post" th:action="@{/payNow}" >
+                        <a th:href="@{/checkout/payNow}" h class="btn btn-primary btn-block waves-effect waves-light">Pay Now</a>
+                       <!-- <form action="" method="post" th:action="@{checkout/payNow}" >
                             <button type="submit"  class="btn btn-primary btn-block waves-effect waves-light">Pay Now</button>
-                        </form>
+                        </form>-->
                     </div>
                 </div>
             </div>

@@ -37,4 +37,12 @@ public class CartController {
     return "checkout";
     }
 
+    @GetMapping("/checkout/payNow")
+    public String payment(Model model){
+        model.addAttribute("cartCount", GlobalData.cart.size());
+        model.addAttribute("total", GlobalData.cart.stream().mapToDouble(Book::getPrice).sum());
+        model.addAttribute("cart", GlobalData.cart);
+        return "payment";
+    }
+
 }
